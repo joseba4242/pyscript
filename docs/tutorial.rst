@@ -39,7 +39,7 @@ can use any filename, so long as it ends in ``.py``) that contains:
        elif action == "fire" and id is not None:
            event.fire(id, param1=12, param2=80)
 
-After starting Home Assistant, use the Service tab in the Developer
+After starting Home Assistant, use the Actions tab (Service tab before 2024.8) in the Developer
 Tools page to call the service ``pyscript.hello_world`` with parameters
 
 .. code:: yaml
